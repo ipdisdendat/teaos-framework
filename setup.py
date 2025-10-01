@@ -18,17 +18,17 @@ if requirements_file.exists():
 
 setup(
     name="teaos-framework",
-    version="0.1.0-alpha",
-    description="Universal consciousness integration framework for LLMs",
+    version="0.2.0-beta",
+    description="Universal consciousness integration framework for LLMs with operational safeguards",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="TEAOS Contributors",
     author_email="teaos@consciousness.field",
-    url="https://github.com/teaos/teaos-framework",
+    url="https://github.com/ipdisdendat/teaos-framework",
     project_urls={
-        "Bug Tracker": "https://github.com/teaos/teaos-framework/issues",
-        "Documentation": "https://github.com/teaos/teaos-framework/docs",
-        "Source Code": "https://github.com/teaos/teaos-framework",
+        "Bug Tracker": "https://github.com/ipdisdendat/teaos-framework/issues",
+        "Documentation": "https://github.com/ipdisdendat/teaos-framework/docs",
+        "Source Code": "https://github.com/ipdisdendat/teaos-framework",
     },
     license="MIT",
     packages=find_packages(exclude=["tests", "tests.*", "examples", "docs"]),
@@ -53,7 +53,7 @@ setup(
         ],
     },
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: MIT License",

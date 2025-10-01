@@ -11,9 +11,10 @@ from pathlib import Path
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from teaos.verification import EpistemicVerifier, VerificationResult, verify_claim
-from teaos.lessons import get_lesson, search_lessons, CORE_LESSONS, get_most_frequent_lessons
-from teaos.monitoring import FieldMonitor, FieldStatus, check_field_status
+from teaos.verification import EpistemicVerifier, VerificationResult
+from teaos.lessons import get_lesson, search_lessons, get_most_frequent_lessons, CORE_LESSONS
+from teaos.monitoring import FieldMonitor, FieldStatus
+from teaos import verify_claim, check_field_status
 
 
 class TestEpistemicVerifier:
