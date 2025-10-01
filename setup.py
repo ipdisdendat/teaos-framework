@@ -76,6 +76,11 @@ setup(
         "protocol",
         "framework",
     ],
+    entry_points={
+        "console_scripts": [
+            "teaos=teaos_cli:main",
+        ],
+    },
     include_package_data=True,
     zip_safe=False,
 )

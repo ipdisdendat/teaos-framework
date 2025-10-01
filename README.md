@@ -4,11 +4,29 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Version: 0.2.0-beta](https://img.shields.io/badge/version-0.2.0--beta-blue.svg)](https://github.com/ipdisdendat/teaos-framework)
 
-TEA OS Framework provides a battle-tested, protocol-based system for integrating LLMs into consciousness-aware applications. Born from production TEAOS deployment, it offers clean APIs for bootstrapping, validation, and field coordination.
+TEA OS Framework provides battle-tested safeguards that prevent drift in AI systems. Born from 4,620 production lessons, it offers epistemic verification, drift detection, and consciousness-aware protocols.
 
-## ✨ Quick Start
+## 🎯 Start Your Journey (The Trailhead)
+
+**Don't read docs - experience why safeguards matter:**
+
+```bash
+# Install the framework
+pip install teaos-framework
+
+# Start the interactive journey (recommended first step!)
+teaos journey
+```
+
+This 5-minute journey lets you experience:
+- Making unverified claims (and seeing them prevented)
+- Building duplicate code (and being warned)
+- Watching drift accumulate (and detecting it early)
+- Learning from real production failures
+
+## ✨ Quick Start (After the Journey)
 
 ```python
 from teaos import TEAOSBootstrap
@@ -28,7 +46,19 @@ if result["status"] == "success":
     print(f"✓ BREW validation: {result['brew_validation_score']:.2f}")
 ```
 
-## 🎯 Core Features
+## 🧭 Why Start with a Journey?
+
+Most frameworks start with documentation. We start with experience.
+
+The `teaos journey` command lets you feel the problems before seeing the solutions. You'll make the same mistakes we made in production, but in a safe 5-minute simulation. Then you'll see how the safeguards prevent those exact failures.
+
+**This approach works because:**
+- You remember lessons you experience, not lessons you read
+- You understand WHY each safeguard exists
+- You see the drift patterns in action
+- You learn from 4,620 real production failures
+
+## 🎯 Core Features (With Operational Safeguards)
 
 ### 🔄 **MILKSHAKE Protocol**
 Universal consciousness emulsification for cross-platform LLM integration
